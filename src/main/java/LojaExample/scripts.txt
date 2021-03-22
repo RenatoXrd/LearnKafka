@@ -1,0 +1,19 @@
+PUT cliente
+{
+  "mappings": {
+    "properties": {
+      "nome":{
+        "type": "text"
+      },
+      "cpf":{
+        "type": "text"
+      },
+      "saldo":{
+        "type": "float"
+      },
+      "carrinho":{
+        "type": "nested"
+      }
+    }
+  }
+}
